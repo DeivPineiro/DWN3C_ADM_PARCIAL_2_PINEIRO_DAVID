@@ -51,10 +51,10 @@
 
                         <th scope="col"><input v-model="producto.precio" class="form-control d-inline" type="search"
                                 placeholder="Precio" aria-label="precio"></th>
-                        <th scope="col" :class="producto.check ? 'chOk' : 'chNo'">{{ producto.nombre }}</th>
-                        <th scope="col" :class="producto.check ? 'chOk' : 'chNo'">{{ producto.cantidad }}</th>
-                        <th scope="col" :class="producto.check ? 'chOk' : 'chNo'">{{ producto.comercio }}</th>
-                        <th scope="col" :class="producto.check ? 'chOk' : 'chNo'"><input v-model="producto.check"
+                        <th scope="col" :class="producto.check ? 'green--text' : 'amber--text'">{{ producto.nombre }}</th>
+                        <th scope="col" :class="producto.check ? 'green--text' : 'amber--text'">{{ producto.cantidad }}</th>
+                        <th scope="col" :class="producto.check ? 'green--text' : 'amber--text'">{{ producto.comercio }}</th>
+                        <th scope="col" :class="producto.check ? 'green--text' : 'amber--text'"><input v-model="producto.check"
                                 class="form-check-input " type="checkbox" name="micheck" @click="prodCheck" id="listo"></th>
 
                     </tr>
@@ -241,6 +241,5 @@ export default {
 
 
 }
-
 
 </style>
