@@ -1,4 +1,4 @@
-# dwn3c-adm-parcial-2-pineiro-david
+# 2-parcial-adm-pineiro-david
 
 ## Project setup
 ```
