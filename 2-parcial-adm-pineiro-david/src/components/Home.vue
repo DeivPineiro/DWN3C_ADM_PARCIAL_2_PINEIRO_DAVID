@@ -1,12 +1,12 @@
 <template>
   <v-container>
     <v-row class="text-center">
-
+      <h1 class="h2 pb-4">¿Listo para ir a comprar?</h1>
       <div class="container text-center">
 
-<h1 class="h2 pb-4">¿Listo para ir a comprar?</h1>
 
-<img src="../assets/logo.png" class="imgSize1 p-3">
+
+<img max-height="30" max-width="30" src="../assets/icohome.png"   class="imgSize1 p-3">
 
 
 
