@@ -1,6 +1,8 @@
 <template>
+<div class="container whiteBg rounded border border-success">
+    <h1 class="text-center mb-5 ">Ofertas!!!</h1>
 
-<table class="table container back ">
+<table class="table table-responsive container rounded border border-success">
 
 <thead>
   <tr>
@@ -93,7 +95,7 @@
 
 </table>
 
-
+</div>
 </template>
 
 <script>
