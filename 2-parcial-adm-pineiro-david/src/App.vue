@@ -7,7 +7,7 @@
         <div>
           <v-app-bar
             src="https://fotografias.lasexta.com/clipping/cmsimages01/2022/11/29/1F3E89E0-6810-43BF-9387-CD3DAC15B490/cuales-son-frutas-verduras-temporada-diciembre_98.jpg?crop=6720,3781,x0,y36&width=1900&height=1069&optimize=low&format=webply">
-            <v-img max-height="50" max-width="50" src="../src/assets/logo.png"></v-img>
+            <a href="/"><v-img max-height="50" max-width="50" src="../src/assets/logo.png"></v-img></a> 
             <v-toolbar-title class="white--text">Volvemos a ir de compras!!!</v-toolbar-title>
             <v-spacer></v-spacer>
 
@@ -16,14 +16,12 @@
       </template>
       <template>
         <v-tabs fixed-tabs background-color="green lighten-3" dark>
-          <v-tab>
-            <router-link style="text-decoration: none; color: inherit;" to="/">Home</router-link>
+     
+          <v-tab to="/lista">
+            Lista
           </v-tab>
-          <v-tab>
-            <router-link style="text-decoration: none; color: inherit;" to="/lista">Lista</router-link>
-          </v-tab>
-          <v-tab>
-            <router-link style="text-decoration: none; color: inherit;" to="/oferta">Oferta</router-link>
+          <v-tab to="/oferta">
+           Oferta
           </v-tab>
 
         </v-tabs>

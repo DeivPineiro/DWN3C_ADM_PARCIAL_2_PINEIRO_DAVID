@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+//import HomeView from '../views/HomeView.vue'
 import ListaView from '../views/ListaView.vue'
 import OfertaView from '../views/OfertaView.vue'
 
@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/',
     name: 'homeview',
-    component: HomeView
+    component: () => import('../views/HomeView.vue')
   },
   {
     path: '/lista',
@@ -19,7 +19,7 @@ const routes = [
   },
   {
     path: '/oferta',
-    name: 'OfertaView',
+    name: 'ofertaView',
     component: OfertaView
   }
  

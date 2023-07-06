@@ -1,7 +1,9 @@
 <template>
+   
     <div class="container whiteBg rounded border border-success">
 
             <h1 class="text-center mb-5 ">Lista de compras</h1>
+            <p class="text-center mb-5 ">Comencemos!, ingresa: nombre, cantidad (Kg, Lts, Unidades, etc) y donde lo vas a comprar. Luego agrégalo con Ingresar</p>  
         <table class="table table-responsive container rounded border border-success">
 
             <thead>
@@ -61,7 +63,9 @@
                 </tbody>
             </template>
             <button class="btn btn-outline-warning d-inline m-2" @click="calcularTotal" type="button"> Calcular</button>
+
             <p class="d-inline mx-2">Total: $ {{ total }}</p>
+            <p class="mx-2">Calcula el valor de lo que vas comprando</p>   
 
 
 

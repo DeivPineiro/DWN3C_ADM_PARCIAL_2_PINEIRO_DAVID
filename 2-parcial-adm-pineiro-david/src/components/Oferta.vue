@@ -1,7 +1,7 @@
 <template>
 <div class="container whiteBg rounded border border-success">
     <h1 class="text-center mb-5 ">Ofertas!!!</h1>
-
+    <p class="text-center mb-5 ">¿Viste una oferta?, recordala, solo ingresa sus datos y donde la viste, no te olvides de guardarla así la podrás recordarla más tarde en ofertas anteriores.</p>  
 <table class="table table-responsive container rounded border border-success">
 
 <thead>
@@ -102,7 +102,7 @@
 
 
 export default {
-    name: 'listaComp',
+    name: 'ofertaComp',
 
 data: function () {
 
